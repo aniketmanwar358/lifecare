@@ -1,0 +1,49 @@
+.health-risk {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.health-risk h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.health-risk label {
+  display: block;
+  margin-top: 10px;
+}
+
+.health-risk input,
+.health-risk select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.health-risk button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.health-risk button:hover {
+  background: #218838;
+}
+
+.risk-result {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}

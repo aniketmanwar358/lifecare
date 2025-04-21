@@ -1,0 +1,89 @@
+.medicine-guide {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-guide-title {
+  text-align: center;
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.medicine-search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.medicine-search-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.medicine-search-button {
+  width: 25%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.medicine-search-button:hover {
+  background-color: #0056b3;
+}
+
+.medicine-loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.medicine-error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.medicine-card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.medicine-purpose,
+.medicine-ingredients,
+.medicine-dosage,
+.medicine-side-effects,
+.medicine-warning {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.medicine-purpose strong,
+.medicine-ingredients strong,
+.medicine-dosage strong,
+.medicine-side-effects strong,
+.medicine-warning strong {
+  color: #007bff;
+}

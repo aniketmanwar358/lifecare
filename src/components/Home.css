@@ -1,0 +1,640 @@
+/* Home.css */
+
+.home-container {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  color: #333;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: white;
+  color: #007bff;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #0056b3;
+  color: white;
+}
+
+/* Features Section */
+.features {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Health Tips */
+.health-tips {
+  background: #ffcc00;
+  padding: 40px 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #e3f2fd;
+  padding: 50px 20px;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.about,
+.how-it-works,
+.stats,
+.faq,
+.newsletter {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.how-it-works ol {
+  list-style: decimal inside;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.stats-grid div {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  min-width: 150px;
+}
+
+.faq-item {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.faq-item h4 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.feature-card img,
+.about img,
+.how-it-works img {
+  width: 64px;
+  margin-bottom: 15px;
+}
+
+.about img,
+.how-it-works img {
+  width: 80px;
+}
+
+.feature-card,
+.testimonial-card,
+.faq-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.feature-card:hover,
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-grid,
+.testimonial-grid,
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.why-lifecare {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.why-lifecare h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.why-lifecare p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  color: #555;
+}
+
+.why-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.why-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 280px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+}
+
+.why-card img {
+  margin-bottom: 15px;
+}
+.how-it-works {
+  background-color: #f1f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.how-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+.steps-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.step-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-8px);
+}
+
+.step-card img {
+  width: 64px;
+  margin-bottom: 15px;
+}
+
+.step-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #007acc;
+}
+
+.faq-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.faq-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.faq-card {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.faq-card:hover {
+  transform: translateY(-6px);
+}
+
+.faq-card img {
+  width: 48px;
+  margin-bottom: 15px;
+}
+
+.faq-card h4 {
+  margin-bottom: 10px;
+  color: #007acc;
+}
+
+.faq-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+.health-tips-section {
+  padding: 60px 20px;
+  background: #eafaf1;
+  text-align: center;
+}
+
+.health-tips-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.tips-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+.tips-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tip-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 25px;
+  max-width: 260px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-6px);
+}
+
+.tip-card img {
+  width: 64px;
+  margin-bottom: 15px;
+}
+
+.tip-card h4 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+.testimonials-section {
+  background-color: #f9f9ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.testimonial-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+}
+
+.testimonial-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h4 {
+  margin-top: 15px;
+  color: #007acc;
+}
+
+.testimonial-card span {
+  display: block;
+  font-size: 0.9rem;
+  color: #777;
+}
+.footer-section {
+  background-color: #1a1a2e;
+  color: #f0f0f0;
+  padding: 50px 20px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-brand,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.footer-brand h3 {
+  font-size: 1.8rem;
+  color: #00c896;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #00c896;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  filter: brightness(0.9);
+  transition: filter 0.3s;
+}
+
+.social-icons img:hover {
+  filter: brightness(1.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #888;
+}
+.footer-section {
+  background: linear-gradient(145deg, #2c3e50, #4ca1af); /* Adding a gradient background */
+  color: #f0f0f0;
+  padding: 50px 20px 20px 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15); /* Adding shadow to give depth */
+  border-top: 6px solid #00c896; /* Highlight the top border with brand color */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-brand,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.footer-brand h3 {
+  font-size: 2rem;
+  color: #00c896;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #00c896;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  filter: brightness(0.9);
+  transition: filter 0.3s;
+}
+
+.social-icons img:hover {
+  filter: brightness(1.2);
+}
+
+.footer-bottom {
+  border-top: 2px solid #00c896; /* Lighter border for separation */
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+

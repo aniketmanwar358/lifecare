@@ -1,0 +1,67 @@
+.upload-docs {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f5f5f5;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.upload-docs h2,
+.upload-docs h3 {
+  text-align: center;
+}
+
+.upload-docs input[type="file"] {
+  display: block;
+  margin: 10px auto;
+}
+
+.upload-docs button {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload-docs button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress {
+  background: #4caf50;
+  height: 20px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  transition: width 0.3s ease-in-out;
+}
+
+.status {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.upload-docs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upload-docs li {
+  margin: 5px 0;
+}
